@@ -2,7 +2,7 @@
 
 Added `karma-commonjs` CommonJS module resolver for test to be able to create utility files (factories, builders etc.)
 
-See `/app/view1/test/data.js` file with sample data and `/app/view1/view1_test.js`.
+See `/app/view1/test/data.js` file with sample data and `/app/view1/view1_test.js` to see usage of this file.
 
 # angular-seed — the seed for AngularJS apps
 
