@@ -1,3 +1,9 @@
+# Modifications
+
+Added `karma-commonjs` CommonJS module resolver for test to be able to create utility files (factories, builders etc.)
+
+See `/app/view1/test/data.js` file with sample data and `/app/view1/view1_test.js`.
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
