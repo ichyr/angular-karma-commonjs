@@ -13,8 +13,15 @@ module.exports = function(config) {
     ],
 
     autoWatch: true,
+    singleRun: true,
 
-    frameworks: ['jasmine'],
+    reporters: ['spec'],
+
+    frameworks: ['jasmine', 'commonjs'],
+
+    preprocessors: {
+      '**/*.js': ['commonjs']
+    },
 
     browsers: ['Chrome'],
 
@@ -22,7 +29,9 @@ module.exports = function(config) {
       'karma-chrome-launcher',
       'karma-firefox-launcher',
       'karma-jasmine',
-      'karma-junit-reporter'
+      'karma-junit-reporter',
+      'karma-spec-reporter',
+      'karma-commonjs'
     ],
 
     junitReporter: {
